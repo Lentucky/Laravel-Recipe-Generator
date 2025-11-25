@@ -100,3 +100,38 @@ uvicorn main:app --reload --port 8001
 -   **FastAPI Docs:** http://localhost:8001/docs
 
 ## Project Structure
+
+recipe-ai/
+├── app/  
+├── fastapi/  
+├── resources/views/  
+├── recipe_embedder_model/  
+├── recipe_embeddings.npy  
+├── recipes_clean.csv
+├── start.bat
+└── README.md
+
+## Technologies Used
+
+-   **Frontend:** Laravel 12, Blade, Tailwind CSS, Vite
+-   **Backend:** FastAPI, Python
+-   **ML:** Sentence Transformers, PyTorch
+-   **Database:** SQLite
+
+## Troubleshooting
+
+### FastAPI Connection Error
+
+Make sure FastAPI is running on port 8001 and model files are downloaded.
+
+### Model Not Found
+
+Download the model files from Google Drive and place them in the project root. See [DOWNLOAD_MODEL.md](DOWNLOAD_MODEL.md).
+
+### Port Already in Use
+
+Change the port in `start.bat` or kill the process using the port.
+
+## Author
+
+Allen Cabansag
