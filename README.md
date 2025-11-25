@@ -101,15 +101,15 @@ uvicorn main:app --reload --port 8001
 
 ## Project Structure
 
-recipe-ai/
-├── app/
-├── fastapi/
-├── resources/views/
-├── recipe_embedder_model/
-├── recipe_embeddings.npy
-├── recipes_clean.csv
-├── start.bat
-└── README.md
+    recipe-ai/
+    ├── app/
+    ├── fastapi/
+    ├── resources/views/
+    ├── recipe_embedder_model/
+    ├── recipe_embeddings.npy
+    ├── recipes_clean.csv
+    ├── start.bat
+    └── README.md
 
 ## Technologies Used
 
